@@ -1,0 +1,44 @@
+html,body
+{
+    height: 100%;
+   
+   
+}
+body
+{
+    background-color: rgb(43, 38, 38);
+    
+}
+
+#navlist {
+    background-color: #3a3c3e;
+    margin:2px;
+  
+}
+#navlist a {
+   
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#main
+{
+   margin-top: 10px;
+   
+  
+
+}
+#back_top
+{
+    position: fixed;
+    bottom:2px;
+    right: 2px;
+}
+
+#navlist > a:hover
+{
+    color:#d4c81e;
+}

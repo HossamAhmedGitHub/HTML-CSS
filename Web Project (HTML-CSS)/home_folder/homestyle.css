@@ -1,0 +1,80 @@
+
+html,body
+{
+    height: 100%;
+}
+body{
+  background-color: #ffffff;
+  font-family: 'Arial', serif;
+  background-color: rgba(239, 239, 251, 0.509);
+}
+#header
+{
+    border-style: solid transparent;
+    padding:5px;
+    margin: 5px;
+
+    color:white;
+    background-color: #0C4D02;
+    width: 250px;
+   
+    
+}
+#header_frame
+{
+    background-color: rgb(43, 38, 38);
+}
+ #picture_div
+ {
+    border-width: 1px;
+    width: fit-content;
+    border-style: solid;
+  border-color: #e3e1e1;
+ }
+ #picture_div > .img_component 
+ {
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #cec9c9;
+ 
+  background-color: rgb(19, 18, 29);
+  color: rgb(255, 255, 255);
+  padding: 1px;
+  text-align: center;
+  margin: 0px;
+ }
+  
+  #foot
+  {
+    position: absolute;
+   
+    width: 100%;
+  }
+ 
+ #Bio_graph_div > .bio_component
+ {
+  border-width: 1px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(93, 106, 202);
+  width: 900px;
+  margin-bottom: 10px;
+ }
+ /*#Bio_graph_div,  #picture_div
+ {
+  display: inline-block;
+ }*/
+ #Bio_graph_div
+ {
+  margin-left: 10px;
+ }
+ #upper_body
+ {
+  display: flex;
+ }
+ #middle_body>p
+ {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+ }

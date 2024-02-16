@@ -1,0 +1,66 @@
+html,body
+{
+    height: 100%;
+   
+   
+}
+body
+{
+    background-color: rgb(185, 197, 237);
+    
+}
+
+#header
+{
+    border-style: solid transparent;
+    padding:5px;
+    margin: 5px;
+
+    color:white;
+    background-color: #0C4D02;
+    width: 250px;    
+}
+#header_frame
+{
+    background-color: rgb(43, 38, 38);
+    margin-bottom: 10px;
+}
+
+
+input[type=text],input[type=email],div[id=check-interests], input[type=password], input[type=datetime], div[id=faculty-list], div[id=gender],div[id=userpic]
+{
+width:20%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+div[id=about-you]
+{
+width:21%;
+height:20px;
+padding: 1px;
+margin:1px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+textarea
+{
+width:25%;
+padding: 1px;
+margin:1px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+div[id=submit&reset]
+{
+width:20%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}

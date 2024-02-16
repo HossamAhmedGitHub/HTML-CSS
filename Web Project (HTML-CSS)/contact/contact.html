@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="contact.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	
+	<body >
+		<div align="center" id="header_frame">
+            <h1  id="header">Contact Us</h1>
+        </div>
+		<div id="main_frame" align="center">
+			<Form method="post"  action="contact2.html">
+				<h1> Regestration Form Page </h1>
+				
+				   <hr width="25%" align="center">
+					<input type="hidden" placeholder="User ID">
+					<br>
+					<input type="text" placeholder="First Name" required>
+                    <br>
+					<input type="text" placeholder="Last Name" required>
+                    <br>
+					<input type="email" placeholder="Email" required>
+                    <br>
+					<input type="password" name="pass" placeholder="Password" required>
+					<br>					
+					<input type="password" name="pass" placeholder="Repeat Password" required>
+					<br>
+					<input type="datetime" placeholder="Birth Date">
+					<br>
+					<div id="userpic">
+						<label for="pic"> User Picture &nbsp </label>
+						<br> 
+						<input align="center" type="file">
+					</div>
+					<br>
+					
+					<div id="gender">
+						<input " type="radio"  name="gender" >
+                    	<label>Male</label> &nbsp &nbsp &nbsp &nbsp &nbsp 				
+						<input  type="radio" name="gender">
+                    	<label >Female</label>
+					</div>
+					
+					<br>
+                    <div id="faculty-list">
+						Faculty
+						<select name="faculty-list" id="faculty"> 
+							<option value="Engineering">Engineering</option> 
+							<option value="medicine">Medicine</option> 
+							<option value="dentistry">Dentistry</option> 
+							<option value="Science">Science</option> 
+						</select>
+				   </div>
+				   
+				   <br>
+				    <div id="check-interests">
+				        <label id="interests-label">Interests</label>
+						
+						  
+							<input type="checkbox" id="programming" name="Interests">
+							<label>programming</label>
+						 
+						
+							<input type="checkbox" id="reading" name="Interests">
+							<label>reading</label>
+						
+						    &nbsp &nbsp &nbsp &nbsp &nbsp 
+							<input type="checkbox" id="swimming" name="Interests">
+							<label>swimming</label>
+							
+							<input type="checkbox" id="football" name="Interests">
+							<label>Football</label>
+						
+						
+				    </div>
+				   <br>
+				    <div id="about-you">
+						 About you
+				    </div>
+					<br>
+					<textarea cols="50" rows="20">
+					</textarea>	   
+					
+					<div id="terms-conditions">
+					<input type="checkbox" required> </input> I agreed to terms and conditions
+					<br>
+					<a href="terms.html" target="_blank"><label> Terms&conditions </label> </a>
+					</div>
+					<br>
+					<div id="submit&reset">
+						<input type="submit"> &nbsp <input type="reset">
+					</div>
+					<div align="center" >
+						<br>
+						<a href="https://www.facebook.com/"  target="_blank">  
+							<img src="Facebook-icon.png" alt="Facebook" width="100" height="90"/>
+					 </a> 
+					 <a href="https://www.linkedin.com/in/hossam-ahmed-162502152/"  target="_blank">  
+						   <img src="linkedin.png"  alt="google+"  width="100" height="90"/>
+					 </a> 
+					 <a href="https://twitter.com/home"  target="_blank">  
+						   <img src="twitter.png"  alt="twitter"  width="100" height="90"/>
+					 </a>
+					  </div>
+					
+					
+			</form>
+		</div> 
+	</body>
+</html>

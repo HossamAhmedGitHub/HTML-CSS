@@ -1,0 +1,76 @@
+html,body
+{
+    height: 100%;
+   
+   
+}
+body
+{
+    background-color: black;
+}
+
+#header
+{
+    border-style: solid transparent;
+    padding:5px;
+    margin: 5px;
+
+    color:white;
+    background-color: #0C4D02;
+    width: 250px;    
+}
+#header_frame
+{
+    background-color: rgb(43, 38, 38);
+    margin-bottom: 10px;
+}
+#birthday_pic
+{
+    align-items: center;
+}
+
+
+#birthday_pic {
+    
+    animation: picAnimation 0s ease-in 4s forwards;
+   
+    
+}
+@keyframes picAnimation {
+    to {
+        width:0;
+        height:0;
+        display:none;
+    }
+}
+
+
+
+
+
+#message_frame
+{
+    background-color: #4DA6FF;
+    margin:10px;
+    padding:10px;
+    visibility: hidden;
+    animation: messAnimation 0s ease-in 4s forwards;
+   
+}
+@keyframes messAnimation {
+    to {
+        
+        visibility: visible;
+    }
+}
+.message_part
+{
+    padding:10px;
+    margin:2px
+    display: inline-block;
+}
+
+
+
+
+
